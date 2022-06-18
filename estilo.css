@@ -1,0 +1,50 @@
+body {
+    background: plum;
+    font: normal 15pt arial;
+    color: indigo;
+}
+
+header {
+    color:indigo;
+    text-align: center;
+}
+
+section {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(76, 0, 130, 0.529);
+    text-align: left;
+}
+
+div {
+    padding: 5px;
+}
+
+footer {
+    color:indigo;
+    text-align: center;
+    font-style: italic;
+    font: normal 10pt arial;
+}
+
+img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#button {
+    border-radius: 6px;
+    color:indigo;
+    background-color: rgba(148, 200, 16, 0.676);
+    border-color: rgba(255, 166, 0, 0.325);
+    transition: all 0.5s ease;
+}
+
+#button:hover {
+    background-color: rgba(227, 131, 131, 0.737);
+    opacity: 1;
+    cursor: pointer;
+}
